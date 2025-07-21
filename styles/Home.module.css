@@ -1,0 +1,77 @@
+.container {
+  min-height: 100vh;
+  background: black;
+  color: white;
+  font-family: 'Kanit', sans-serif;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoTop {
+  height: 40px;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+}
+
+.navItem {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.main {
+  margin-top: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.mainLogo {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.intro {
+  font-size: 1.5rem;
+  font-weight: 300;
+  max-width: 600px;
+  margin-bottom: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.primaryButton {
+  padding: 0.8rem 1.5rem;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.secondaryButton {
+  padding: 0.8rem 1.5rem;
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+}

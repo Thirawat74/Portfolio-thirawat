@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Kanit';
+  src: url('/fonts/Kanit-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  font-family: 'Kanit', sans-serif;
+  background: black;
+  color: white;
+}
