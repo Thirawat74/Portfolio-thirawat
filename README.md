@@ -1,2 +1,0 @@
-# Portfolio-thirawat
-Portfolio tx
